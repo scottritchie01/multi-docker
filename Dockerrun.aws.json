@@ -27,13 +27,13 @@
       "image": "scottritchie01/multi-nginx",
       "hostname": "nginx",
       "essential": true,
-      "portMappings" : [
+      "portMappings": [
         {
           "hostPort": 80,
           "containerPort": 80
         }
       ],
-      "links": [ "client", "server" ],
+      "links": ["client", "server"],
       "memory": 128
     }
   ]
